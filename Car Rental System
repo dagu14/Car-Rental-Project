@@ -172,7 +172,7 @@ class RentalSystem {
             System.out.println("1. Add Car");
             System.out.println("2. Edit Car");
             System.out.println("3. Delete Car");
-            System.out.println("4. Back to Main Menu");
+            System.out.println("4. Back to RentalSystem Menu");
             System.out.println();
             System.out.print("Enter your choice: ");
 
