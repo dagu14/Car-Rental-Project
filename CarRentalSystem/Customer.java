@@ -18,6 +18,7 @@ public class Customer {
         return name;
     }
 
+    //Getter for contact Information
     public String getContactInformation() {
 
         return contactInformation;
