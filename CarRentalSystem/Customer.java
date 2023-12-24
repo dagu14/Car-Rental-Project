@@ -23,12 +23,16 @@ public class Customer {
         return contactInformation;
     }
 
+    //method to add rental history
     public void addRentalHistory(String rentalDetails) {
         rentalHistory.add(rentalDetails);
     }
-    static class AuthenticationSystem {   //Authenticates a customer.
 
-        public boolean authenticateCustomer(Customer customer) {  //return True if the customer is authenticated, false otherwise.
+    //Authenticates a customer.
+    static class AuthenticationSystem {
+
+    //return True if the customer is authenticated, false otherwise.
+        public boolean authenticateCustomer(Customer customer) {
             return true;
         }
     }
