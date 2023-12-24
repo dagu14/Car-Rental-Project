@@ -6,9 +6,9 @@ Welcome to our user-friendly Car Rental System, a Java-based application designe
 
 ### Step 1: Clone the Repository
 
-Begin by cloning the repository to your local machine. Copy and paste the following command into your terminal:
+Begin by cloning the repository to your local machine. use this link :-
 
-git clone https://github.com/dagu14/crispy.git
+https://github.com/dagu14/crispy.git
 
 ### Step 2: Open in Your Java IDE
 
