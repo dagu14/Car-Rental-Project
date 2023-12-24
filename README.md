@@ -34,4 +34,4 @@ We welcome contributions! If you have valuable suggestions, improvements, or bug
 
 ## Contact
 
-For any questions or inquiries, don't hesitate to reach out via email: [dagu14@gmail.com].
+For any questions or inquiries, don't hesitate to reach out via email: dagu14@gmail.com.
