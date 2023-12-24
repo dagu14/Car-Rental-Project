@@ -1,85 +1,37 @@
-# Car rental system
-Car Rental System is a simple application that allows customers to rent vehicles from a rental company.
-## Descriptions
- - Customers can view rental options.
-
-- Customers can authenticate themselves before renting a vehicle.
-
-- Customers can return a rented vehicle.
-
-- Customers can view rental information.
-
-- Customers can view and manage car details.
-## usage
-To use the Car Rental System, follow these steps:
-
-
-1. Clone the repository to your local machine using the following command:
-
-[git clone] (https://github.com/dagu14/crispy.git)
-
-2. Navigate to the CarRentalSystem directory using the command:
-
-cd CarRentalSystem
-
-
-3. Open the project in your favorite Java IDE and run the RentalSystem class.
-
-
-4. Interact with the Car Rental System using the main menu options.
- 
-## How to run and access the system
 # Car Rental System
 
-This repository contains a car rental system implemented in Java. The system allows users to manage vehicles, rent and return cars, and generate invoices.
+Welcome to our user-friendly Car Rental System, a Java-based application designed to provide customers with a seamless vehicle rental experience at reasonable prices. Below is a detailed guide on how to set up, run, and interact with the system.
 
-## How to Run
+## Getting Started
 
-To run the car rental system, follow the steps below:
+### Step 1: Clone the Repository
 
-1. Ensure you have the Java Development Kit (JDK) installed on your machine.
+Begin by cloning the repository to your local machine. Copy and paste the following command into your terminal:
 
-2. Download or clone this repository to your local machine.
+git clone https://github.com/dagu14/crispy.git
 
-3. Open a command prompt or terminal and navigate to the project's root directory.
+### Step 2: Open in Your Java IDE
 
-4. Compile the Java files by running the following command:
+Navigate to the 'CarRentalSystem' directory and open the project in your preferred Java Integrated Development Environment (IDE). We recommend using IntelliJ IDEA.
 
-   ````
-   javac *.java
-5.Once the compilation is successful, you can run the system by executing the following command:
+### Step 3: Run the System
 
-   ````
-   java Main
-This will start the car rental system.
+Locate the Main class ('CarRentalSystem') within your IDE and run the application. This will initiate the Car Rental System.
 
-## Accessing the System
+## Interacting with the System
 
-Once the car rental system is running, you can interact with it through the command-line interface. The system will display a menu with different options for managing vehicles and rentals.
+Once the Car Rental System is up and running, you can navigate through the user-friendly menu options:
 
-Here are the main menu options:
+1. Rent a Car: Rent a vehicle by providing essential customer information and rental duration.
+2. Return a Car: Effortlessly return a rented vehicle when needed.
+3. Display Rental Information: View comprehensive details about available and rented cars.
+4. Manage Car Details: Admins can edit details such as prices and car information.
+5. Exit: Close the Car Rental System when you're done.
 
-1. Add Car: Allows you to add a new car to the system.
+## How to Contribute
 
-2. Rent Car: Lets you rent a car by providing the necessary details such as customer information and rental duration.
-
-3. Return Car: Allows you to return a rented car.
-
-4. Display Rental Info: Shows the list of available and rented cars, along with their details.
-
-5. Exit: Exits the car rental system.
-
-Follow the prompts on the command line to navigate through the menu options and perform the desired actions.
-
-
-## Contributing
-
-Contributions to this repository are welcome. If you have any suggestions, improvements, or bug fixes, feel free to create a pull request or open an issue.
-
-## License
-
-This code is released under the [MIT License](LICENSE).
+We welcome contributions! If you have valuable suggestions, improvements, or bug fixes, please feel free to create a pull request or open an issue.
 
 ## Contact
 
-For any questions or inquiries, please contact [dagu14@gmail.com].
+For any questions or inquiries, don't hesitate to reach out via email: [dagu14@gmail.com].
