@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//this is the class RentalSystem
 public class RentalSystem {
     private final List<Vehicle> availableVehicles;
     private final List<Vehicle> rentedVehicles;
