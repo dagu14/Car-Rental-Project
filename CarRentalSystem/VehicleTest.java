@@ -1,8 +1,10 @@
+//adding libraries
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
+//main class vehicle test
 public class VehicleTest {
     @Test
     public void testdisplayInfo(){
@@ -14,6 +16,8 @@ public class VehicleTest {
 
         vehicle.displayInfo();
     }
+
+//  first test block
     @Test
     public void testSetRentalRate() {
         Vehicle vehicle = new Vehicle("Ford", "Fusion", "Silver", 2020, 60.0);
@@ -24,21 +28,23 @@ public class VehicleTest {
 
         assertEquals(70.0, vehicle.getRentalRate(), 0.01);
     }
+
+//    second test block
     @Test
     public void testRentVehicle() {
         Vehicle vehicle = new Vehicle("Chevrolet", "Malibu", "Black", 2019, 45.0);
 
         assertNull(vehicle.getRentedBy());
 
-        vehicle.setRentedBy("John Doe");
+        vehicle.setRentedBy("Abebe");
 
-        assertEquals("John Doe", vehicle.getRentedBy());
+        assertEquals("Abebe", vehicle.getRentedBy());
     }
+
+//    third test block
     @Test
     public void testGetRentalDuration() {
         Vehicle vehicle = new Vehicle("Tesla", "Model S", "White", 2023, 100.0);
-
-        // Assuming a rental duration method is implemented, initially set to 0
         assertEquals(0, vehicle.getRentalDuration());
     }
 }
